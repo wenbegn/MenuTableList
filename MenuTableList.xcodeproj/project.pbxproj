@@ -15,6 +15,8 @@
 		2D5B863B1FCAFC4B008DBBBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B863A1FCAFC4B008DBBBA /* main.m */; };
 		2D5B86451FCAFC4B008DBBBA /* MenuTableListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B86441FCAFC4B008DBBBA /* MenuTableListTests.m */; };
 		2D5B86501FCAFC4B008DBBBA /* MenuTableListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B864F1FCAFC4B008DBBBA /* MenuTableListUITests.m */; };
+		2D5B86611FCAFD4E008DBBBA /* listLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B86601FCAFD4E008DBBBA /* listLabel.m */; };
+		2D5B86641FCAFEAE008DBBBA /* FlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B86631FCAFEAE008DBBBA /* FlagView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2D5B864B1FCAFC4B008DBBBA /* MenuTableListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuTableListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5B864F1FCAFC4B008DBBBA /* MenuTableListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableListUITests.m; sourceTree = "<group>"; };
 		2D5B86511FCAFC4B008DBBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5B865F1FCAFD4E008DBBBA /* listLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listLabel.h; sourceTree = "<group>"; };
+		2D5B86601FCAFD4E008DBBBA /* listLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listLabel.m; sourceTree = "<group>"; };
+		2D5B86621FCAFEAE008DBBBA /* FlagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagView.h; sourceTree = "<group>"; };
+		2D5B86631FCAFEAE008DBBBA /* FlagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlagView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 				2D5B862C1FCAFC4B008DBBBA /* AppDelegate.m */,
 				2D5B862E1FCAFC4B008DBBBA /* ViewController.h */,
 				2D5B862F1FCAFC4B008DBBBA /* ViewController.m */,
+				2D5B865D1FCAFCF4008DBBBA /* listView */,
+				2D5B865E1FCAFCF4008DBBBA /* menuBtn */,
 				2D5B86311FCAFC4B008DBBBA /* Main.storyboard */,
 				2D5B86341FCAFC4B008DBBBA /* Assets.xcassets */,
 				2D5B86361FCAFC4B008DBBBA /* LaunchScreen.storyboard */,
@@ -130,6 +138,24 @@
 				2D5B86511FCAFC4B008DBBBA /* Info.plist */,
 			);
 			path = MenuTableListUITests;
+			sourceTree = "<group>";
+		};
+		2D5B865D1FCAFCF4008DBBBA /* listView */ = {
+			isa = PBXGroup;
+			children = (
+				2D5B865F1FCAFD4E008DBBBA /* listLabel.h */,
+				2D5B86601FCAFD4E008DBBBA /* listLabel.m */,
+				2D5B86621FCAFEAE008DBBBA /* FlagView.h */,
+				2D5B86631FCAFEAE008DBBBA /* FlagView.m */,
+			);
+			path = listView;
+			sourceTree = "<group>";
+		};
+		2D5B865E1FCAFCF4008DBBBA /* menuBtn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = menuBtn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +293,8 @@
 			files = (
 				2D5B86301FCAFC4B008DBBBA /* ViewController.m in Sources */,
 				2D5B863B1FCAFC4B008DBBBA /* main.m in Sources */,
+				2D5B86641FCAFEAE008DBBBA /* FlagView.m in Sources */,
+				2D5B86611FCAFD4E008DBBBA /* listLabel.m in Sources */,
 				2D5B862D1FCAFC4B008DBBBA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
